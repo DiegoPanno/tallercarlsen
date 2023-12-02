@@ -1,0 +1,15 @@
+.banner-content-mobile {
+    perspective: 1000px; /* Establece la perspectiva para las transformaciones 3D */
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+  
+  .banner-mobile {
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    margin: 10px;
+    transform: rotateY(45deg); /* Ajusta la rotación según tus necesidades */
+    transform-origin: center center;
+    transition: transform 0.5s ease; /* Añade una transición para suavizar los cambios */
+  }

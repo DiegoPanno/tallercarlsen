@@ -1,0 +1,78 @@
+.animated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+    animation: moveBanner 20s linear infinite; /* Ajusta la duración según tus preferencias */
+    width: 100%; 
+    height: 10vh;
+   
+  }
+  
+  @keyframes moveBanner {
+    0% {
+      transform: translateX(100%); /* Comienza desde la derecha */
+    }
+  
+    100% {
+      transform: translateX(-100%); /* Termina en la izquierda */
+    }
+  }
+  
+ 
+  
+  .coche {
+    width: 5%;
+    height: 90%;
+    background: white;
+    border-radius: 5px;
+    object-fit: contain;
+        
+  }
+
+  .coche1 {
+    width: 5%;
+    height: 90%;
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    .animated {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      overflow: hidden;
+      animation: moveBanner 20s linear infinite; /* Ajusta la duración según tus preferencias */
+      width: 100vh; 
+      height: 10vh;
+     
+    }
+    
+    @keyframes moveBanner {
+      0% {
+        transform: translateX(100%); /* Comienza desde la derecha */
+      }
+    
+      100% {
+        transform: translateX(-100%); /* Termina en la izquierda */
+      }
+    }
+    
+    
+    .coche {
+      width: 48px;
+      height: 48px;
+      background: white;
+      border-radius: 5px;
+      object-fit: contain;
+          
+    }
+  
+    .coche1 {
+      width: 50px;
+      height: 40px;
+      object-fit: contain;
+    }
+}

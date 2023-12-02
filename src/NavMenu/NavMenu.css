@@ -1,0 +1,96 @@
+.conte-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(252, 165, 4);
+    display: none; /* Inicialmente oculto en pantallas más grandes */
+  }
+
+  .img-logo-nav-hamb {
+    display: none;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00a4fd;
+    cursor: pointer;
+  }
+  
+  .img-logo-nav {
+    height: 60px;
+    width: 110px;
+    cursor: pointer;
+  }
+  
+  ul li:hover {
+    color: white;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+
+
+  /* Estilos para pantallas más pequeñas (menos de 768px) */
+@media screen and (max-width: 768px) {
+    .conte-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .menu-icon {
+      display: block; /* Mostrar el icono en pantallas más pequeñas */
+      margin-right: 20px; /* Ajusta el margen derecho según tus preferencias */
+    }
+  
+    .img-logo-nav-hamb {
+      display: block;
+      height: 40px;
+      width: 60px;
+    }
+  
+    ul {
+      display: none; /* Inicialmente oculto en pantallas más pequeñas */
+      flex-direction: column;
+      position: absolute;
+      top: 36px;
+      left: 0;
+      width: 80%; /* Ajusta el ancho según tus preferencias */
+      background-color: #080808;
+    }
+  
+    .mobile-menu-open ul {
+      display: flex;
+      gap: 15px;
+    }
+  
+    ul li {
+      padding: 10px;
+    }
+  
+    .img-logo-nav {
+      display: none;
+    }
+  }
+  
