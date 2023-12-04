@@ -3,19 +3,23 @@ import './App.css'
 
 import Footer from './Footer/Footer'
 import Home from './Home/Home'
-//import AnimatedBanner from './AnimatedBanner/AnimatedBanner'
-//import StickerRedondo from './StickerRedondo/StickerRedondo'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Nosotros from './Nosotros/Nosotros';
 
 function App() {
   
 
   return (
     <>
-      <Home />
-      {/* <StickerRedondo /> */}
+      <BrowserRouter>
+      <Routes>
+       <Route path="/" Component={Home}/>
+       <Route path="/nosotros" Component={Nosotros}/>
 
-     {/* <AnimatedBanner /> */}
+      </Routes>
+      
       <Footer />
+      </BrowserRouter>
     </>
   )
 }

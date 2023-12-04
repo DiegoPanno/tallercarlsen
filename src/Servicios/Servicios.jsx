@@ -82,7 +82,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Amortiguación</h2>
-            <h2 className="h2-diag">Suspención</h2>
+            <h2 className="h2-diag">Suspensión</h2>
           </div>
           <img className="amort" src={suspencion} alt="Piezas de suspención" />
         </div>

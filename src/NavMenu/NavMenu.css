@@ -27,11 +27,17 @@
     margin-top: 10px;
   }
   
-  ul li {
+  .nav-li {
+    
+    text-decoration: none;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: #00a4fd;
     cursor: pointer;
+  }
+
+  .nav-li-img {
+    text-decoration: none;
   }
   
   .img-logo-nav {
@@ -48,8 +54,7 @@
     overflow-x: hidden;
   }
   
-
-
+  
   /* Estilos para pantallas más pequeñas (menos de 768px) */
 @media screen and (max-width: 768px) {
     .conte-nav {
@@ -57,11 +62,17 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
   
     .menu-icon {
       display: block; /* Mostrar el icono en pantallas más pequeñas */
       margin-right: 20px; /* Ajusta el margen derecho según tus preferencias */
+      margin-bottom: 8px;
+      
+      
+
     }
   
     .img-logo-nav-hamb {
