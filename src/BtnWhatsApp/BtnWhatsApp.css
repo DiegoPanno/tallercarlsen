@@ -21,7 +21,11 @@
     .btn-whatsapp {
         
      position: fixed;
-     bottom: 21%;
-     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     bottom: 5%;
+     height: 40px;
+     width: 40px;
     }
  }

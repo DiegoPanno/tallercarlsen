@@ -50,8 +50,6 @@ body {
   display: none;
 }
 
-
-
 /* Estilos para pantallas más pequeñas (menos de 768px) */
 @media screen and (max-width: 768px) {
   .menu {
@@ -67,9 +65,19 @@ body {
   }
 
   .img-desaparece img {
-    height: auto; 
+    height: auto;
     object-fit: contain;
   }
 
- 
+  .img-fondo-vertical {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: -1;
+  }
 }

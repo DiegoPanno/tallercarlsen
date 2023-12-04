@@ -1,14 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import './Home.css';
-import imgFondo from '../assets/interiordetaller.jpg';
-
-import imgDesaparece from '../assets/imgDesaparece.jpg';
-import NavMenu from '../NavMenu/NavMenu';
-import { IoLogoWhatsapp } from "react-icons/io";
-import { openWhatsAppChat } from '../OpenWhatsApp/openWhatsAppChat'
-import Servicios from '../Servicios/Servicios';
-import BtnWhatsApp from '../BtnWhatsApp/BtnWhatsApp';
-
+import React, { useState, useEffect } from "react";
+import "./Home.css";
+import imgFondo from "../assets/interiordetaller.jpg";
+import imgFondoVertical from '../assets/imgfondovertical.jpg'
+import imgDesaparece from "../assets/imgDesaparece.jpg";
+import NavMenu from "../NavMenu/NavMenu";
+import Servicios from "../Servicios/Servicios";
+import BtnWhatsApp from "../BtnWhatsApp/BtnWhatsApp";
 
 const Home = () => {
   const [scroll, setScroll] = useState(0);
@@ -24,11 +21,11 @@ const Home = () => {
     };
 
     // Agregar el evento de scroll
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Limpiar el evento de scroll al desmontar el componente
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -36,7 +33,7 @@ const Home = () => {
 
   return (
     <>
-      <div className='conte-home'>
+      <div className="conte-home">
         <nav className="menu menu-fijo">
           <NavMenu />
         </nav>
@@ -48,25 +45,25 @@ const Home = () => {
             style={{ transform: `translate(-50%, -${scroll}px)`, opacity }}
           />
         </div>
-        
-        <div>
 
-        <img
-         className="img-fondo" 
-         src={imgFondo}
-          alt="Interior de taller Carlsen" 
+        <div>
+          <img
+            className="img-fondo"
+            src={imgFondo}
+            alt="Interior de taller Carlsen"
           />
-          
+
+          <img
+            className="img-fondo-vertical"
+            src={imgFondoVertical}
+            alt="Interior de taller Carlsen"
+          />
         </div>
-        
       </div>
       <BtnWhatsApp />
-    <Servicios />
+      <Servicios />
     </>
   );
 };
 
 export default Home;
-
-
-

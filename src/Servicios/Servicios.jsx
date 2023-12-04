@@ -59,8 +59,10 @@ const Servicios = () => {
         </div>
       </div>
 
+      <div className="conte-banner-servicio">
 
       <AnimatedBanner />
+      </div>
 
 
       <div className="conte-servicio">
@@ -95,8 +97,10 @@ const Servicios = () => {
           </div>
         </div>
       </div>
+      <div className="conte-banner-servicio">
 
       <AnimatedBannerIzq />
+      </div>
 
 
       <div className="conte-servicio">
