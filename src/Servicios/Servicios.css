@@ -70,8 +70,13 @@
     border-bottom: 10px solid #2e3033;
 }
 
+.conte-banner-servicio {
+    width: 140%;
+}
+
+
 /* Media query para dispositivos más pequeños */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .conte-servicio {
         display: flex;
         flex-wrap: wrap;

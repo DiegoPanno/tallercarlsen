@@ -5,7 +5,7 @@ import NavMenu from '../NavMenu/NavMenu'
 const Nosotros = () => {
   return (
     <>
-    <NavMenu />
+    {/* <NavMenu /> */}
     <section className='conte-nosotros'>
       <p className='p-nosotros-uno'>Bienvenidos a Taller Carlsen, donde la pasión por los automóviles y el compromiso con la excelencia se unen desde 1985. Iniciamos como un proyecto familiar, impulsados por el sueño de construir un taller que no solo brindara estabilidad a nuestra familia, sino que también se convertiría en un punto de confianza para nuestros clientes. </p>
       <br />

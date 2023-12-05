@@ -34,9 +34,9 @@ const Home = () => {
   return (
     <>
       <div className="conte-home">
-        <nav className="menu menu-fijo">
+        {/* <nav className="menu menu-fijo">
           <NavMenu />
-        </nav>
+        </nav> */}
         <div className="img-desaparece-container">
           <img
             className="img-desaparece"

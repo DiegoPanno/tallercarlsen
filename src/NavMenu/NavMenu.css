@@ -1,107 +1,107 @@
 .conte-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080808;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(252, 165, 4);
+  display: none; /* Inicialmente oculto en pantallas más grandes */
+}
+
+.img-logo-nav-hamb {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.nav-li {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #00a4fd;
+  cursor: pointer;
+}
+
+.nav-li-img {
+  text-decoration: none;
+}
+
+.img-logo-nav {
+  height: 70px;
+  width: 150px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Estilos para pantallas más pequeñas (menos de 768px) */
+@media screen and (max-width: 768px) {
+  .conte-nav {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    background-color: #080808;
-    padding: 10px 20px;
-    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
-  
+
   .menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-    color: rgb(252, 165, 4);
-    display: none; /* Inicialmente oculto en pantallas más grandes */
+    display: block; /* Mostrar el icono en pantallas más pequeñas */
+    margin-right: 30px; /* Ajusta el margen derecho según tus preferencias */
+    
   }
 
   .img-logo-nav-hamb {
+    display: block;
+    height: 40px;
+    width: 60px;
+    margin-top: 9px;
+  }
+
+  ul {
+    display: none; /* Inicialmente oculto en pantallas más pequeñas */
+    flex-direction: column;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 80%; /* Ajusta el ancho según tus preferencias */
+    background-color: #080808;
+  }
+
+  .mobile-menu-open ul {
+    display: flex;
+    gap: 15px;
+  }
+
+  ul li {
+    padding: 10px;
+  }
+
+  .img-logo-nav {
     display: none;
   }
-  
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 90px;
-    margin: 0;
-    margin-top: 10px;
-  }
-  
-  .nav-li {
-    
-    text-decoration: none;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #00a4fd;
-    cursor: pointer;
-  }
-
-  .nav-li-img {
-    text-decoration: none;
-  }
-  
-  .img-logo-nav {
-    height: 60px;
-    width: 110px;
-    cursor: pointer;
-  }
-  
-  ul li:hover {
-    color: white;
-  }
-  
-  body {
-    overflow-x: hidden;
-  }
-  
-  
-  /* Estilos para pantallas más pequeñas (menos de 768px) */
-@media screen and (max-width: 768px) {
-    .conte-nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-  
-    .menu-icon {
-      display: block; /* Mostrar el icono en pantallas más pequeñas */
-      margin-right: 20px; /* Ajusta el margen derecho según tus preferencias */
-      margin-bottom: 8px;
-      
-      
-
-    }
-  
-    .img-logo-nav-hamb {
-      display: block;
-      height: 40px;
-      width: 60px;
-    }
-  
-    ul {
-      display: none; /* Inicialmente oculto en pantallas más pequeñas */
-      flex-direction: column;
-      position: absolute;
-      top: 36px;
-      left: 0;
-      width: 80%; /* Ajusta el ancho según tus preferencias */
-      background-color: #080808;
-    }
-  
-    .mobile-menu-open ul {
-      display: flex;
-      gap: 15px;
-    }
-  
-    ul li {
-      padding: 10px;
-    }
-  
-    .img-logo-nav {
-      display: none;
-    }
-  }
-  
+}

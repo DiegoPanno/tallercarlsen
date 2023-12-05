@@ -33,7 +33,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Diagnóstico</h2>
-            <h2 className="h2-diag">Computarizado</h2>
+            <h2 className="h2-diag">computarizado</h2>
           </div>
           <img className="img-diag" src={logoBosch} alt="Logo de Bosch" />
         </div>
@@ -43,7 +43,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Mecánica</h2>
-            <h2 className="h2-diag">Integral</h2>
+            <h2 className="h2-diag">integral</h2>
             <img className="img-vtv" src={motor} alt="Imagen de motor" />
           </div>
         </div>
@@ -53,7 +53,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Pre-vtv</h2>
-            <h2 className="h2-diag">Chequeo</h2>
+            <h2 className="h2-diag">chequeo</h2>
             <img className="img-vtv" src={vtv} alt="Logo de vtv" />
           </div>
         </div>
@@ -72,7 +72,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Sistema</h2>
-            <h2 className="h2-diag"> de Frenos</h2>
+            <h2 className="h2-diag"> de frenos</h2>
           </div>
           <img className="img-diag" src={advertencia} alt="Advertencia de frenos" />
         </div>
@@ -82,7 +82,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Amortiguación</h2>
-            <h2 className="h2-diag">Suspensión</h2>
+            <h2 className="h2-diag">y suspensión</h2>
           </div>
           <img className="amort" src={suspencion} alt="Piezas de suspención" />
         </div>
@@ -92,7 +92,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Sistema de</h2>
-            <h2 className="h2-diag">Distribución</h2>
+            <h2 className="h2-diag">distribución</h2>
             <img className="img-vtv" src={polea} alt="Sistema de polea de distribución" />
           </div>
         </div>

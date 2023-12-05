@@ -14,7 +14,7 @@ const Footer = () => {
       <div className='blanco'>
         <img className='logo-footer-negro' src={logoNegro} alt="Logo de taller Carlsen en color negro" />
         <div className='domicilio-footer'>
-        <FaLocationDot />
+        <FaLocationDot style={{fontSize: 25}} />
         <h4 className='h4-footer'>Jacinto Peralta Ramos 2457, Mar del Plata </h4>
         </div>
         <div className='horario-footer'>

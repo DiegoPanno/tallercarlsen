@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     overflow: hidden;
     animation: moveBanner 20s linear infinite; /* Ajusta la duración según tus preferencias */
     width: 100%; 
@@ -36,7 +36,7 @@
     height: 90%;
   }
 
-  @media screen and (max-width: 500px) {
+  /* @media screen and (max-width: 500px) {
     
     .animated {
       display: flex;
@@ -44,19 +44,18 @@
       align-items: center;
       gap: 5px;
       overflow: hidden;
-      animation: moveBanner 20s linear infinite; /* Ajusta la duración según tus preferencias */
-      width: 100vh; 
+      animation: moveBanner 20s linear infinite; 
       height: 10vh;
      
     }
     
     @keyframes moveBanner {
       0% {
-        transform: translateX(100%); /* Comienza desde la derecha */
+        transform: translateX(100%); 
       }
     
       100% {
-        transform: translateX(-100%); /* Termina en la izquierda */
+        transform: translateX(-100%); 
       }
     }
     
@@ -75,4 +74,4 @@
       height: 40px;
       object-fit: contain;
     }
-}
+} */
