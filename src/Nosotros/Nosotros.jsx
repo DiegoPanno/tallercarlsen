@@ -7,23 +7,21 @@ const Nosotros = () => {
     <>
     {/* <NavMenu /> */}
     <section className='conte-nosotros'>
-      <p className='p-nosotros-uno'>Bienvenidos a Taller Carlsen, donde la pasión por los automóviles y el compromiso con la excelencia se unen desde 1985. Iniciamos como un proyecto familiar, impulsados por el sueño de construir un taller que no solo brindara estabilidad a nuestra familia, sino que también se convertiría en un punto de confianza para nuestros clientes. </p>
+      <h2 className='nuestra-historia'>Nuestra historia</h2>
+      <p className='p-nosotros-uno'>En 1985, dimos inicio a un proyecto familiar con grandes sueños de crecimiento, respaldado por esfuerzo, confianza e ilusión. A lo largo de los años, transformamos un pequeño espacio en un taller que no solo nos brindó estabilidad, sino que también amplió nuestras capacidades. Inicialmente enfocados en el servicio de electricidad automotriz, que fue nuestra actividad principal y el motor de nuestro crecimiento, expandimos nuestra oferta para proporcionar a nuestros clientes soluciones integrales para sus vehículos. </p>
       <br />
        <p className='p-nosotros-uno'>
-       A lo largo de los años, hemos evolucionado y crecido, transformando un modesto espacio en un taller que va más allá de la simple reparación de vehículos. Comprendiendo las necesidades de nuestros clientes, ampliamos nuestros servicios para ofrecer no solo la especialización en electricidad automotriz, que fue el pilar inicial de nuestro éxito, sino también soluciones integrales para sus vehículos. 
+       En 1995, respondiendo a la creciente demanda de nuestra clientela, adquirimos un nuevo terreno en la calle Jacinto Peralta Ramos nº 2457. Nuestro compromiso siempre ha sido con quienes confían en nosotros, y este enfoque nos llevó a reabrir nuestras puertas en 2011, haciendo realidad nuestro sueño deseado. 
        </p>
        <br />
        <p className='p-nosotros-uno'>
-       En 1985, al notar el crecimiento de nuestra clientela, decidimos dar un paso más. Adquirimos un terreno en la calle Jacinto Peralta Ramos 2457, con un enfoque claro en satisfacer las demandas de nuestros clientes fieles. Este crecimiento nos permitió concretar nuestro sueño y, en 2011, reabrimos nuestras puertas en un nuevo espacio, listos para ofrecer un servicio aún más completo y especializado. 
+       En 2023, queremos expresar nuestro sincero agradecimiento a clientes y amigos que han sido parte fundamental de este viaje. En TALLER CARLSEN, ofrecemos todo lo que tu vehículo necesita, con la comodidad y rapidez que los tiempos actuales demandan. Priorizamos un trato cordial y afable en nuestro establecimiento. Con 38 años de experiencia en el rubro, crecemos con responsabilidad y respaldo de garantía. Te invitamos a conocernos si aún no lo has hecho.
        </p>
        <br />
        <p className='p-nosotros-uno'>
-       Con 38 años de experiencia en el rubro, nos enorgullece decir que hemos aprendido a crecer con responsabilidad y a respaldar cada servicio con garantía. En Taller Carlsen, no solo encontrará expertos, sino también aliados comprometidos con la satisfacción del cliente.  
+       "TALLER CARLSEN": SERVICIO INTEGRAL DEL AUTOMOTOR.  
        </p>
-       <br />
-       <p className='p-nosotros-uno'>
-       Únase a nosotros en esta trayectoria de éxito. Confíe en la experiencia, la confianza y la calidad de servicio que solo Taller Carlsen puede ofrecer. Su vehículo merece lo mejor, y nosotros estamos aquí para proporcionárselo. ¡Descubra la diferencia de elegir a verdaderos apasionados por los autos! 
-       </p>
+       
 
     </section>
     </>

@@ -53,7 +53,7 @@ const Servicios = () => {
           </div>
           <div className="conte-h2-servicio">
             <h2 className="h2-diag">Pre-vtv</h2>
-            <h2 className="h2-diag">chequeo</h2>
+            <h2 className="h2-diag">Sin cargo</h2>
             <img className="img-vtv" src={vtv} alt="Logo de vtv" />
           </div>
         </div>

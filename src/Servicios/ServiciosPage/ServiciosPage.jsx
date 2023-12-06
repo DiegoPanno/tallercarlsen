@@ -8,11 +8,12 @@ import amortiguacion from '../img/amortiguacion.png'
 import vtvnegro from "../img/logovtvnegro.png";
 import turbo from '../img/turbo.png'
 import freno from '../img/freno.png'
+import aceite from '../img/aceite.png'
 
 const ServiciosPage = () => {
   return (
     <section className="conte-servicios-page">
-      <h2 className="h2-servicio-page">Servicios</h2>
+      
       <h1 className="h1-servicio-page">En esto nos especializamos</h1>
       <div className="conte-serv">
         <div className="conte-serv-uno">
@@ -22,7 +23,7 @@ const ServiciosPage = () => {
               <FaComputer style={{ fontSize: 50 }} />{" "}
             </div>
             <h3 className="h3-serv-page">Diagnóstico <br /> computarizado</h3>
-            <p className="parrafo-servicio"> Escaneamos tu vehiculo con sistema Bosch.</p>
+            <p className="parrafo-servicio"> Se utiliza un scanner Bosh para podes detectar cualquier falla en el vehículo.</p>
           </div>
           <div className="conte-integral">
             <div className="icon-servicio-page">
@@ -52,7 +53,7 @@ const ServiciosPage = () => {
             <img style={{ height: 50 }} src={amortiguacion} alt="Logo de un amortiguador" />
             </div>
             <h3 className="h3-serv-page">Tren delantero</h3>
-            <p className="parrafo-servicio">Amortiguación, suspensión. Reparación de tren delantero y trasero.</p>
+            <p className="parrafo-servicio">Amortiguación, suspensión. Reparación de tren delantero.</p>
           </div>
           <div className="conte-integral">
             <div className="icon-servicio-page">
@@ -75,7 +76,14 @@ const ServiciosPage = () => {
             <img style={{ height: 50 }} src={turbo} alt="Logo de turbo" />
             </div>
             <h3 className="h3-serv-page">Turbo</h3>
-            <p className="parrafo-servicio">Reparamos todo tipo de turbocompresores.</p>
+            <p className="parrafo-servicio">Reemplazo <br /> de turbos nuevos <br /> y reparados.</p>
+          </div>
+          <div className="conte-integral">
+            <div className="icon-servicio-page">
+            <img style={{ height: 50 }} src={aceite} alt="Logo de turbo" />
+            </div>
+            <h3 className="h3-serv-page">Cambio de lubricantes <br /> y filtros</h3>
+            <p className="parrafo-servicio">Atendemos automóviles nacionales e importados.</p>
           </div>
           
         </div>
