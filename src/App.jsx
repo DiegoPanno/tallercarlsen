@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      
        <NavMenu />
       <Routes>
        <Route path="/" Component={Home}/>

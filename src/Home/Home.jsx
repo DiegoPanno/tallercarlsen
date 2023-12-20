@@ -3,7 +3,7 @@ import "./Home.css";
 import imgFondo from "../assets/interiordetaller.jpg";
 import imgFondoVertical from '../assets/imgfondovertical.jpg'
 import imgDesaparece from "../assets/imgDesaparece.jpg";
-import NavMenu from "../NavMenu/NavMenu";
+//import CarouselHome from "../CarrouselHome/CarrouselHome";
 import Servicios from "../Servicios/Servicios";
 import BtnWhatsApp from "../BtnWhatsApp/BtnWhatsApp";
 
@@ -34,9 +34,7 @@ const Home = () => {
   return (
     <>
       <div className="conte-home">
-        {/* <nav className="menu menu-fijo">
-          <NavMenu />
-        </nav> */}
+        
         <div className="img-desaparece-container">
           <img
             className="img-desaparece"
@@ -61,6 +59,7 @@ const Home = () => {
         </div>
       </div>
       <BtnWhatsApp />
+      {/* <CarouselHome /> */}
       <Servicios />
     </>
   );
